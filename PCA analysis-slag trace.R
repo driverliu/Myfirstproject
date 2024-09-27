@@ -2,8 +2,6 @@ library(FactoMineR)
 library(factoextra)
 library(corrplot)
 
-#测试GIT中修改2
-
 data <- read.table(file="clipboard",quote="", sep= "\t", header=TRUE)
 data$Types <- as.factor(data$Types)
 data.active<-data[,2:16]
